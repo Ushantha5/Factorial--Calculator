@@ -9,16 +9,20 @@
 </head>
 
 <body class="bg-body-secondary">
+
     <div class="container" id="container">
         <h1>Factorial Calculator</h1>
-        <label for="inpu-number">Enter a number:
-            <input type="number" id="number" class="number"></label>
-        <button id="btn" class="btn">Calculate Factorial</button>
-        <div class="resuts" id="resuts"></div>
+        <form action="" id="calform">
+
+            <label for="inpu-number">Enter a number:
+                <input type="number" id="number-input-user" class="number" min="0"></label>
+            <button id="btn" class="btn" type="submit">Calculate Factorial</button>
+            <div class="resuts" id="divOutput"></div>
+        </form>
     </div>
 
 
-    <script src="index.js"></script>
+    <script type="module" src="main.js"></script>
 </body>
 
 </html>
